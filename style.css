@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px red;
+    height: 100%;
+   
+  
+}
+.container{
+    border: solid 2px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    min-width: 375px;
+    
+    margin: 0 auto;
+    
+}
+.container-card{
+    background-color: hsl(0, 0%, 100%);
+    border: solid 2px orangered;
+    width: 375px;
+    height: auto;
+}
+figure{
+    border: solid 5px orangered;
+
+}
